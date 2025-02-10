@@ -123,12 +123,11 @@ export class UVIndexCard extends LitElement {
           hasHold: hasAction(this.config.hold_action),
           hasDoubleClick: hasAction(this.config.double_tap_action),
         })}
-        tabindex="0"
         .label=${`UV Index: ${this.config.entity || 'No Entity Defined'}`}
       >
         <div style="display: flex;">
-          <div style="width: 50%; padding-left: 30px;">
-            <svg width="80%" viewBox="0 0 162 136" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <div style="width: 100%;">
+            <svg width="100%" viewBox="0 0 660 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <title>UV</title>
               <g id="UV-Index-Triangle" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <!-- First Segment (Fully Rounded Left Corners) -->
@@ -151,20 +150,6 @@ export class UVIndexCard extends LitElement {
                 <path d="M 600,10 H 640 Q 650,10 650,20 V 30 Q 650,40 640,40 H 600 V 10 Z" fill="${colours.low}"></path>
               </g>
             </svg>
-          </div>
-          <div>
-            <div>
-              <p>
-                <span style="font-weight: bold;">${localize('common.uv_index', '', '', this.config.language)}</span><br/>
-                ${stateValue}
-              </p>
-            </div>
-            <div>
-              <p>
-                <span style="font-weight: bold;">${localize('common.uv_risk', '', '', this.config.language)}</span><br/>
-                ${localize(uvRiskStr, '', '', this.config.language)}
-              </p>
-            </div>
           </div>
         </div>
       </ha-card>
