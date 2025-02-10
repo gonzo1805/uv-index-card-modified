@@ -1,5 +1,18 @@
 # UV Index card
 
+## Disclaimer
+
+This Card comes entirely from the original author of the code [Original Repo](https://github.com/t1gr0u/uv-index-card). I just did changes on the way the information is shown and added spanish support to the component.
+If you discovered this card from this repo please know that almost everything from this work comes from him. Also, for simplicity of installation, I'm leaving the original readme here too.
+
+## My changes
+
+Added spanish support.
+
+![newIndexUV](https://github.com/user-attachments/assets/fde492b1-860e-43d4-8fb3-94958f8b9262)
+
+## Original Information
+
 A custom Lovelace card that displays the UV index and risk level in [Home Assistant](https://home-assistant.io/).
 
 [![GitHub Release][releases-shield]][releases-link] [![GitHub Release Date][release-date-shield]][releases-link] [![GitHub Releases][latest-download-shield]][traffic-link] [![GitHub Releases][total-download-shield]][traffic-link]
@@ -12,7 +25,7 @@ A custom Lovelace card that displays the UV index and risk level in [Home Assist
 
 ## Installation
 
-### [HACS](https://hacs.xyz/) (Home Assistant Community Store)
+### [HACS](https://hacs.xyz/) (Home Assistant Community Store) This method will not work for this, please use manual.
 
 1. Go to HACS page on your Home Assistant instance
 1. Select `Frontend`
