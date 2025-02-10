@@ -39,9 +39,9 @@ class ActionHandler extends HTMLElement implements ActionHandler {
 
   public connectedCallback(): void {
     Object.assign(this.style, {
-      position: 'absolute',
-      width: isTouch ? '100px' : '50px',
-      height: isTouch ? '100px' : '50px',
+      position: 'abolute',
+      width: isTouch ? '600px' : '1000px', // Since now the size of the card depends entirely of the SVG, I used an unrealistic value here
+      height: isTouch ? '600px' : '1000px', // Since now the size of the card depends entirely of the SVG, I used an unrealistic value here
       transform: 'translate(-50%, -50%)',
       pointerEvents: 'none',
       zIndex: '999',
