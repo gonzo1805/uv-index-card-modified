@@ -146,7 +146,7 @@ export class UVIndexCard extends LitElement {
                 ></polygon>
                 <polygon
                   points="100,10 145,10 145,40 100,40"
-                  fill="${stateValue >= 2 ? colours.moderate : colours.idle}"
+                  fill="${stateValue >= 2 ? colours.low : colours.idle}"
                 ></polygon>
                 <polygon
                   points="150,10 195,10 195,40 150,40"
@@ -158,7 +158,7 @@ export class UVIndexCard extends LitElement {
                 ></polygon>
                 <polygon
                   points="250,10 295,10 295,40 250,40"
-                  fill="${stateValue >= 5 ? colours.high : colours.idle}"
+                  fill="${stateValue >= 5 ? colours.moderate : colours.idle}"
                 ></polygon>
                 <polygon
                   points="300,10 345,10 345,40 300,40"
@@ -166,7 +166,7 @@ export class UVIndexCard extends LitElement {
                 ></polygon>
                 <polygon
                   points="350,10 395,10 395,40 350,40"
-                  fill="${stateValue >= 7 ? colours.veryHigh : colours.idle}"
+                  fill="${stateValue >= 7 ? colours.high : colours.idle}"
                 ></polygon>
                 <polygon
                   points="400,10 445,10 445,40 400,40"
@@ -178,7 +178,7 @@ export class UVIndexCard extends LitElement {
                 ></polygon>
                 <polygon
                   points="500,10 545,10 545,40 500,40"
-                  fill="${stateValue >= 10 ? colours.extreme : colours.idle}"
+                  fill="${stateValue >= 10 ? colours.veryHigh : colours.idle}"
                 ></polygon>
                 <polygon
                   points="550,10 595,10 595,40 550,40"
